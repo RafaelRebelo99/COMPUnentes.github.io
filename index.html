@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <title>COMPUnentes</title>
+    <link rel="icon" type="image/x-icon" href="Imagens/favicon.PNG">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+
+        <div class="navbar">
+            <div class="logo">
+               <img src="Imagens/Logo.png" width="300px">
+        
+            </div>
+              <nav>
+            
+                 <ul id="Menuitems">
+                      <li><a href=""> Home </a></li>
+                      <li><a href=""> Produtos</a></li>
+                      <li><a href=""> Sobre</a></li>
+                      <li><a href=""> Contactos</a></li>
+                      <li><a href=""> Log in</a></li>
+         
+        
+                 </ul>    
+        
+               </nav> 
+                <img src="Imagens/shopping-cart.png" width="30px" height="30px">
+                <img src="Imagens/Menu icon.png" class="menu-icon" onclick="menutoggle()">  
+
+            </div>
+           <div class="row">
+              <div class="col2">
+              <h1>Nova RTX 4090</h1>
+               <p> 
+                A nova Nvidia GeForce RTX 4090, que é, indiscutivelmente, a placa gráfica mais rápida do mercado e <br> já chegou às principais lojas portuguesas, estando disponível em diversos modelos de diversas marcas, algumas delas com overclock de fábrica.</p>
+              <a href="" class="btn">Compra agora &#8594;</a>
+            </div>
+              <div class="col2">
+                   <img src="Imagens/Rtx 4090.png" alt="">
+              </div>
+          </div>
+        </div>
+          
+
+
+        <div class="categorias">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col3">
+                      <img src="Imagens/Rog.png" alt="">
+                    </div>
+                    <div class="col3">
+                      <img src="Imagens/Msi.png" alt="">
+                    </div>
+                    <div class="col3">
+                      <img src="Imagens/corsair-logo.png" alt="">
+                    </div>
+      
+               </div>
+            </div>
+         
+
+        </div>
+    
+        <div class="small-container">
+        <h2 class="title">Mais Vendidos</h2>
+          <div class="row">
+           <div class="col4">
+            <img src="Imagens/Rtx 4070.png">
+            <h4>Rtx 4070 Ti 12Gb <br>Gigabyte</h4>
+            <p> 900,00€</p>
+           </div>
+            <div class="col4">
+             <img src="Imagens/caixa.png">
+             <h4>Caixa ATX <br>Lian-li Razer</h4>
+             <p> 150,00€</p>
+            </div>
+                <div class="col4">
+                 <img src="Imagens/Processador.png">
+                 <h4>Ryzen 9 7900x <br>Amd</h4>
+                 <p> 650,00€</p>
+                </div>
+                    <div class="col4">
+                     <img src="Imagens/monitor.png">
+                     <h4>Monitor Ultra Gear 27<br>Lg</h4>
+                     <p> 400,00€</p>
+                    </div>
+            </div>
+            <h2 class="title">Novidades</h2>
+            <div class="row">
+                <div class="col4">
+                 <img src="Imagens/caixa2.png">
+                 <h4>Caixa ATX Mesh <br>Lian-li</h4>
+                 <p> 99,00€</p>
+                </div>
+                 <div class="col4">
+                  <img src="Imagens/Cooler.png">
+                  <h4>Water-Cooler 140mm <br>NZXT</h4>
+                  <p> 150,00€</p>
+                 </div>
+                     <div class="col4">
+                      <img src="Imagens/Motherboard.png">
+                      <h4>Motherboard ATX <br>Msi</h4>
+                      <p> 200,00€</p>
+                     </div>
+                         <div class="col4">
+                          <img src="Imagens/Teclado.png">
+                          <h4>Teclado mecânico<br>Asus Rog</h4>
+                          <p> 170,00€</p>
+                         </div>
+                 </div>
+        </div>
+          
+        <div class="footer">
+           <div class="container">
+            <div class="row">
+                 <div class="footer-col-1">
+                    <h3>Faz Download da nossa App</h3>
+                    <p>Android e ios</p>
+                 </div>
+                 <div class="footer-col-2">
+                    <img src="Imagens/Logo.png" width="200px">
+                    <p> Trabalho Realizado por <br> Rafael Rebelo <br> Nº 2022105439</p>
+                 </div>
+                 <div class="footer-col-3">
+                    <h3>Informações</h3>
+                   <ul> 
+
+                       <li>Modos de Pagamento</li>
+                       <li>Envio de Encomendas e Portes</li>
+                       <li>Trocas e Devoluções</li>
+                       <li>Política de Privacidade</li>
+
+
+                   </ul>
+
+            </div>
+            <div class="footer-col-4">
+                <h3>Segue-nos</h3>
+               <ul> 
+
+                   <li>Facebook</li>
+                   <li>Instagram</li>
+                   <li>Twitter</li>
+                   <li>Youtube</li>
+
+
+               </ul>
+
+
+           </div>
+
+           </div>
+
+           <script>
+
+             var Menuitems = document.getElementById("Menuitems");
+
+             Menuitems.style.maxHeight = "0px";
+
+             function menutoggle(){
+
+               if(Menuitems.style.maxHeight == "0px")
+                  
+               {
+                    Menuitems.style.maxHeight = "200px";
+
+               }
+               else
+
+               {
+ 
+                Menuitems.style.maxHeight = "0px";
+
+                   
+               }
+
+
+   
+
+             }
+
+           </script>
+</body>
+</html>
